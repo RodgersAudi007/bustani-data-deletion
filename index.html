@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bustani Data Deletion Request</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #5c4033;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .container {
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+      width: 100%;
+      max-width: 400px;
+      text-align: center;
+    }
+    .logo {
+      width: 100px;
+      margin-bottom: 1rem;
+    }
+    h2 {
+      margin-bottom: 1rem;
+      color: #333;
+    }
+    input[type="email"], input[type="password"] {
+      width: 100%;
+      padding: 0.75rem;
+      margin-bottom: 1rem;
+      border: 1px solid #aaa;
+      border-radius: 6px;
+    }
+    button {
+      width: 100%;
+      padding: 0.75rem;
+      background: #8b5e3c;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      transition: background 0.3s ease;
+    }
+    button:hover {
+      background: #734b2d;
+      cursor: pointer;
+    }
+    .footer {
+      margin-top: 1rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="playstore.png" alt="Bustani Logo" class="logo" />
+    <h2>Bustani App<br>Data Deletion Request</h2>
+    <form action="mailto:odekcruger@gmail.com" method="POST" enctype="text/plain">
+      <input type="email" name="email" placeholder="Your Email" required />
+      <input type="password" name="password" placeholder="Account Password" required />
+      <button type="submit">Request Deletion</button>
+    </form>
+    <div class="footer">
+      Your request will be sent securely to our support team.
+    </div>
+  </div>
+</body>
+</html>
